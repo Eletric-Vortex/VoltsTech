@@ -618,6 +618,14 @@ h6 {
   font-size: 13px;
 }
 
+#copyrightSection {
+  transition: all 0.3s ease;
+  padding: 1rem 0;
+}
+
+#copyrightSection.collapse:not(.show) {
+  display: none; /* Override padrão do Bootstrap */
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
